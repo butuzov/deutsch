@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+
+import glob
+import re
+from PIL import Image
+
+from os.path import basename, dirname
+
+
+def clean():
+
+    for image in glob.glob("duolingo/images/unsorted/*.png"):
+
+        if re.match(r"(.*?)-(\d{1,}).png", image):
+            new_name = image.replace("cartoon", "")
+            new_name = re.sub(r"-(\d{1,}).png", ".png", new_name)
+            new_name = re.sub(r"(\s{2,})", " ", new_name)
+            new_name = re.sub(r"(\s{2,})", " ", new_name)
+            new_name = new_name.replace(" .", ".")
+            new_name = new_name.replace(" ", "_")
+            print(image, "=>", new_name)
+
+            im = Image.open(image)
+            im.thumbnail((250, 250))
+            im.save(new_name.replace("unsorted", "resorted").replace("png", "jpg"), "JPEG")
+
+
+if __name__ == "__main__":
+    clean()
