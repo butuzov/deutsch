@@ -1,0 +1,5 @@
+/easydecks
+/slovo
+.de
+*.egg-info
+*.venv*
