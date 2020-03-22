@@ -3,3 +3,4 @@
 .de
 *.egg-info
 *.venv*
+*apkg
