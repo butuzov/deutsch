@@ -96,7 +96,7 @@ if __name__ == "__main__":
 
             if verb_form == form:
                 rule_p = "<strong>verben</strong> - <strong>%s %s</strong>" % (
-                    pron, forms("verben")[pron])
+                    pron, present_indicative("verben")[pron])
                 rule_r = "<strong>%s</strong> - <strong>%s %s</strong>" % (verb, pron, verb_form)
             else:
                 rule_r = rule_p = "<em>ir</em> <strong class='irregular'>%s</strong>" % verb_form
