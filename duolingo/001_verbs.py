@@ -69,7 +69,15 @@ Varbs = {
     'kommen': to_struct('to come', 'aus Deutschland', True),
     'trinken': to_struct('to drink', 'wasser', True),
     'verstehen': to_struct('to understand', 'es nicht', True),
-    'sprechen': to_struct('to speak', 'Deutsch', True),
+    'spielen': to_struct('to play', 'im Spiele', True),
+    'lernen': to_struct('to learn', 'im gymnasium', True),
+    'lieben': to_struct('to learn', 'frühling lied', True),
+    'malen': to_struct('to paint', 'erneut Spiele', True),
+    'sprechen': to_struct(
+        'to speak', 'Deutsch', False, {
+            Pronoun.Du: 'sprichst',
+            Pronoun.Er_Sie_Es: 'spricht',
+        }),
     'lesen': to_struct(
         'to read', 'Zeitung', False, {
             Pronoun.Du: 'liest',

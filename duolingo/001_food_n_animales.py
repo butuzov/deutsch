@@ -27,11 +27,11 @@ class Card:
 Words: List[Card] = [
     Card('Die Katze', "cat", "images/cat.svg"),
     Card('Der Hund', "dog", "images/dog.svg"),
-    Card('Die Mouse', "mouse", "images/mouse.svg"),
+    Card('Die Maus', "mouse", "images/mouse.svg"),
     Card('Das Apfel', "apple", "images/apple.svg"),
     Card('Das Aubergine', "aubergine", "images/aubergine.svg"),
     Card('Die Banane', "banan", "images/banana.svg"),
-    Card('Die Bär', "bear", "images/bear.svg"),
+    Card('Der Bär', "bear", "images/bear.svg"),
     Card('Der Vogel', "bird", "images/bird.svg"),
     Card('Der Schmetterling', "butterfly", "images/butterfly.svg"),
     Card('Die Karotte', "carrot", "images/carrot.svg"),
@@ -51,8 +51,8 @@ Words: List[Card] = [
     Card('Die Wassermelone', "watermelon", "images/watermelon.svg"),
     Card('Der Öl ', "oil", "images/oil.svg"),
     Card('Der Käse', "cheese", "images/cheese.svg"),
-    Card('Der Suppe', "soup", "images/soup.svg"),
-    Card('Die Orangesaft', "orange juice", "images/orange-juice.svg"),
+    Card('Die Suppe', "soup", "images/soup.svg"),
+    Card('Der Orangesaft', "orange juice", "images/orange-juice.svg"),
     Card('Die Orange', "orange", "images/orange.svg"),
     Card('Die Papaya', "papaya", "images/papaya.svg"),
     Card('Die Nudeln', "pasta", "images/pasta.svg"),
@@ -77,7 +77,7 @@ if __name__ == "__main__":
 
     shuffle(Words)
 
-    deck = ed.Deck("Duo.Deu.Words")
+    deck = ed.Deck("Duo.Deu.Food&Animales")
     for c in Words:
 
         deck.default(
