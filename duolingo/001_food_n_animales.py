@@ -49,7 +49,7 @@ Words: List[Card] = [
     Card('Das Fleisch', "meat", "images/meat.svg"),
     Card('Die Melone', "melon", "images/melon.svg"),
     Card('Die Wassermelone', "watermelon", "images/watermelon.svg"),
-    Card('Der Öl ', "oil", "images/oil.svg"),
+    Card('Das Öl', "oil", "images/oil.svg"),
     Card('Der Käse', "cheese", "images/cheese.svg"),
     Card('Die Suppe', "soup", "images/soup.svg"),
     Card('Der Orangesaft', "orange juice", "images/orange-juice.svg"),
@@ -60,6 +60,7 @@ Words: List[Card] = [
     Card('Der Fisch ', "fish", "images/fish.svg"),
     Card('Das Pferd', "horse", "images/horse.svg"),
     Card('Der Kaffee', "coffee", "images/coffee.svg"),
+    Card('Das Milch', "milk", "images/milk.svg"),
     Card('Das Ai', "egg", "images/egg.svg"),
     Card('Die Erdbeere', "strawberry", "images/strawberry.svg"),
     Card('Die Kartoffel', "potato", "images/potatoes.svg"),
@@ -68,7 +69,7 @@ Words: List[Card] = [
     Card('Die Spinne', "spider", "images/spider.svg"),
     Card('Der Tintenfisch', "squid", "images/squid.svg"),
     Card('Das Gemüse ', "vegetables", "images/vegetables.svg"),
-    Card('Das Wine', "wine", "images/wine.svg"),
+    Card('Der Wine', "wine", "images/wine.svg"),
     Card('Die Eiscreme', "ice cream", "images/ice.svg"),
 ]
 
